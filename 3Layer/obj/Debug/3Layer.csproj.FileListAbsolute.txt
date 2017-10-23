@@ -1,0 +1,10 @@
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\bin\Debug\3Layer.exe.config
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\bin\Debug\3Layer.exe.config
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\bin\Debug\3Layer.exe
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\bin\Debug\3Layer.pdb
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\3Layer.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\_3Layer.frmDepartment.resources
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\_3Layer.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\3Layer.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\3Layer.exe
+c:\users\dell\documents\visual studio 2012\Projects\3Layer\3Layer\obj\Debug\3Layer.pdb

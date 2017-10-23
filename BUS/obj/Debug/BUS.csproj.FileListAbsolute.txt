@@ -1,0 +1,5 @@
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\BUS.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\BUS.pdb
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\BUS\obj\Debug\BUS.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\BUS\obj\Debug\BUS.pdb

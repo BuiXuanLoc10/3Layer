@@ -1,0 +1,5 @@
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\DAO.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\DAO.pdb
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DAO\obj\Debug\DAO.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DAO\obj\Debug\DAO.pdb

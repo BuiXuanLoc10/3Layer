@@ -1,0 +1,5 @@
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\DTO.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\bin\Debug\DTO.pdb
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DTO\obj\Debug\DTO.dll
+c:\Users\DELL\documents\visual studio 2012\Projects\3Layer\DTO\obj\Debug\DTO.pdb
