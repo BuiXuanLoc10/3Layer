@@ -1,4 +1,7 @@
-* Create Class Library BUS, DAO, DTO
+* Create Class Library 
+    BUS - Các chức năng xử lý. Vd: INSERT, DELETE, UPDATE,...
+    DAO - Truy vấn đến CSDL
+    DTO - Đối tượng trao đổi dữ liệu
 
 * Output Path:
   3Layer/BUS/DAO/DTO Properties -> Buil -> Output -> Output Path ..\bin\Debug\
