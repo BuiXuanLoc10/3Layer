@@ -1,8 +1,41 @@
 * Create Class Library BUS, DAO, DTO
+
 * Output Path:
   3Layer/BUS/DAO/DTO Properties -> Buil -> Output -> Output Path ..\bin\Debug\
+  
 * References -> Add References (Project -> Solution)
   + 3Layer: BUS + DTO
   + BUS: DAO + DTO
   + DAO: DTO
-*...
+  
+* 3Layer
+  + SqlConnection App.config
+  + private void frm_Load(...)
+      dGV.DataSource = new ___BUS().getData()
+
+* DAO 
+  + DataProvider.cs
+    //SqlConnection App.config
+  + ___DAO.cs
+    public class ___DAO: DataProvider
+      public List<object> getData()
+      //List <object> list = new List<object>()
+      //SqlDataReader
+      ...
+      
+* DTO
+  public class ___
+    //Prop + Tad
+    public <KDL> <TenBien> (get; set;)
+      public ___(<KDL1> <TenBien1>, <KDL2> <TenBien2>)
+        this.<TenBien1> = <TenBien1>
+        ...
+        
+* BUS
+  public class ___BUS
+    public List<object> getData()
+      return (new ___DAO().getData())
+   
+  
+    
+  
