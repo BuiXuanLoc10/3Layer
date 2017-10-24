@@ -1,0 +1,8 @@
+* Create Class Library BUS, DAO, DTO
+* Output Path:
+  3Layer/BUS/DAO/DTO Properties -> Buil -> Output -> Output Path ..\bin\Debug\
+* References -> Add References (Project -> Solution)
+  + 3Layer: BUS + DTO
+  + BUS: DAO + DTO
+  + DAO: DTO
+*...
