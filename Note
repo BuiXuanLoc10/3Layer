@@ -1,44 +1,61 @@
-* Create Class Library 
+ Surround With: Ctrl + K + S
+1. Create Class Library 
     BUS - Các chức năng xử lý. Vd: INSERT, DELETE, UPDATE,...
     DAO - Truy vấn đến CSDL
     DTO - Đối tượng trao đổi dữ liệu
 
-* Output Path:
+2. Output Path:
   3Layer/BUS/DAO/DTO Properties -> Buil -> Output -> Output Path ..\bin\Debug\
   
-* References -> Add References (Project -> Solution)
+3. References -> Add References (Project -> Solution)
   + 3Layer: BUS + DTO
   + BUS: DAO + DTO
   + DAO: DTO
   
-* 3Layer
-  + SqlConnection App.config
-  + private void frm_Load(...)
-      dGV.DataSource = new ___BUS().getData()
-
-* DAO 
+4. 3_Layer
+  + App.config
+    using System.Configuration;
+    <connectionStrings>
+		<add name="name_ConnectionString" connectionString="Server = .; Database = name_Database"; Integrated Security = true;/>
+	</connectionStrings>
+  + Tạo sự kiện Load_Form
+    private void frm_Load()
+    {
+      frm.DataSource = new Object_BUS().getData();
+    }
+  + Sửa Programs.cs với frm
+ 
+5. DAO //Truy vấn đến CSDL
   + DataProvider.cs
-    //SqlConnection App.config
-  + ___DAO.cs
-    public class ___DAO: DataProvider
+    //SqlConnection với Configrations
+        - public void Connect();
+        - public void DisConnect();
+        - public SqlReader ExecuteReader();
+  + Object_DAO.cs
+    public class Object_DAO:DataProvider
+    {
       public List<object> getData()
       //List <object> list = new List<object>()
       //SqlDataReader
       ...
+     }
       
-* DTO
-  public class ___
+6. DTO //Đối tượng trao đổi dữ liệu
+    + Object.cs
+  public class object
+  {
     //Prop + Tad
     public <KDL> <TenBien> (get; set;)
-      public ___(<KDL1> <TenBien1>, <KDL2> <TenBien2>)
+    public Object(<KDL1> <TenBien1>, <KDL2> <TenBien2>){
         this.<TenBien1> = <TenBien1>
         ...
+        }
+   }
         
-* BUS
-  public class ___BUS
-    public List<object> getData()
-      return (new ___DAO().getData())
+7. BUS //Các thao tác dữ lệu
+    + ObjectBUS.cs
+        public List<object> getData()
+        {
+            return (new Object_DAO().getData())
+        }
    
-  
-    
-  
