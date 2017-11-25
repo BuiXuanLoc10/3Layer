@@ -29,7 +29,6 @@ namespace _3Layer
             {
                 MessageBox.Show("...\n" + ex.Message);
             }
-           
         }
     }
 }
