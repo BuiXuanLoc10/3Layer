@@ -39,6 +39,12 @@
       public List<object> getData()
       //List <object> list = new List<object>()
       //SqlDataReader
+      Sử dụng hướng đối tượng
+      Object O = new Object(<Kiểu dữ liệu> <TenBien>,...)
+      Không sử dụng biến Var O new 
+      {
+      
+      }
       ...
      }
       
