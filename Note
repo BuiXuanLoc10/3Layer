@@ -1,11 +1,12 @@
- Surround With: Ctrl + K + S
+* Surround With: Ctrl + K + S
 1. Create Class Library 
-    BUS - Các chức năng xử lý. Vd: INSERT, DELETE, UPDATE,...
-    DAO - Truy vấn đến CSDL
-    DTO - Đối tượng trao đổi dữ liệu
+    - BUS - Các chức năng xử lý. Vd: INSERT, DELETE, UPDATE,...
+    - DAO - Truy vấn đến CSDL
+    - DTO - Đối tượng trao đổi dữ liệu
 
 2. Output Path:
-  3Layer/BUS/DAO/DTO Properties -> Buil -> Output -> Output Path ..\bin\Debug\
+  3Layer/BUS/DAO/DTO: Properties -> Buil -> Output -> Output Path 
+  	..\bin\Debug\
   
 3. References -> Add References (Project -> Solution)
   + 3Layer: BUS + DTO
@@ -14,10 +15,9 @@
   
 4. 3_Layer
   + App.config
-    using System.Configuration;
     <connectionStrings>
 		<add name="name_ConnectionString" connectionString="Server = .; Database = name_Database"; Integrated Security = true;/>
-	</connectionStrings>
+    </connectionStrings>
   + Tạo sự kiện Load_Form
     private void frm_Load()
     {
@@ -27,7 +27,9 @@
  
 5. DAO //Truy vấn đến CSDL
   + DataProvider.cs
-    //SqlConnection với Configrations
+    	- SqlConnection với Configration
+    		+using System.Configuration;
+    		+Add Framword Configuration;
         - public void Connect();
         - public void DisConnect();
         - public SqlReader ExecuteReader();
